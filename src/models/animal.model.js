@@ -6,11 +6,41 @@ module.exports = function (app) {
   const mongooseClient = app.get('mongooseClient');
   const { Schema } = mongooseClient;
   const animal = new Schema({
-    name: { type: String, required: true },
-    entryDate: { type: Date, required: true },
-    legs: { type: Number, required: false },
+    stage: {
+      type: String,
+      required: true
+    },
+    name: {
+      type: String,
+      required: true
+    },
+    dateOfBirth: {
+      type: Date,
+      required: true
+    },
+    description: {
+      type: String,
+      required: true
+    },
+    sex: {
+      type: String,
+      required: true
+    },
+    location: {
+      type: String,
+      required: false
+    },
+    entryDate: {
+      type: Date,
+      required: true
+    },
+    state: {
+      type: String,
+      required: true
+    }
   }, {
-    timestamps: true
+    timestamps: true,
+    versionKey: false
   });
 
   return mongooseClient.model('animal', animal);
