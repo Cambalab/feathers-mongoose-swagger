@@ -17,6 +17,7 @@ const appHooks = require('./app.hooks');
 const channels = require('./channels');
 
 const mongoose = require('./mongoose');
+const swagger = require('feathers-swagger');
 
 const app = express(feathers());
 
@@ -33,6 +34,14 @@ app.use(favicon(path.join(app.get('public'), 'favicon.ico')));
 app.use('/', express.static(app.get('public')));
 
 // Set up Plugins and providers
+app.configure(swagger({
+  docsPath: '/docs',
+  uiIndex: true,
+  info: {
+    title: 'Test API',
+    description: 'Main test API.'
+  }
+}));
 app.configure(express.rest());
 app.configure(socketio());
 
