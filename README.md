@@ -3,7 +3,7 @@
 ***
 
 ### Introduccion:
-Hola, soy Damian! Trabajo como desarrollador en Camba, y en mi tiempo libre soy voluntario en una asociación que rescata animales.  
+Hola, soy Damian! Trabajo como desarrollador en [Camba](http://camba.coop/), y en mi tiempo libre soy voluntario en una asociación que rescata animales.  
 Adopteitor aspira a ser un sistema integral de control para centros de rescate, ofreciendo una plataforma que permita registrar a los animales, saber en donde están, en que situación, si están en adopción, fueron adoptados, etc. También permite registrar Humanos, estos pueden firmar Contratos de adopción que vinculan al animal con el humano, haciendo fácil llevar un historial del animal y saber con quien esta.  
 Mas informacion sobre el proyecto en el [repositorio](https://github.com/adopteitor/adopteitor-api)!
 
