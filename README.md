@@ -3,8 +3,8 @@
 ***
 
 ### Introduccion:
-Hola! Soy Damian, trabajo como desarrollador en Camba y en mi tiempo libre, dedico algo de tiempo a trabajo de voluntario en una asosiacion que rescata animales.  
-Adopteitor aspira a ser un sistema integal de control para centros de rescate de animales, ofreciendo una plataforma que permita registrar a los animales, saber en donde estan, en que situacion, si estan en adopcion, adoptados, etc. Tambien permite registrar Humanos, estos pueden firmar Contratos de adopcion, que vincularan al animal con el humano, haciendo facil llevar un historial del animal y saber con quien esta.  
+Hola, soy Damian! Trabajo como desarrollador en Camba, y en mi tiempo libre soy voluntario en una asociación que rescata animales.  
+Adopteitor aspira a ser un sistema integral de control para centros de rescate, ofreciendo una plataforma que permita registrar a los animales, saber en donde están, en que situación, si están en adopción, fueron adoptados, etc. También permite registrar Humanos, estos pueden firmar Contratos de adopción que vinculan al animal con el humano, haciendo fácil llevar un historial del animal y saber con quien esta.  
 Mas informacion sobre el proyecto en el [repositorio](https://github.com/adopteitor/adopteitor-api)!
 
 Inicialmente el proyecto lo hicimos en Django y hace muy poco empezamos a re-hacer la API con FeathersJs, tengo mis modelos definidos en schemas de Mongoose y me pareció que seria interesante poder generar una documentación a partir de esta información.  
