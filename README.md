@@ -3,16 +3,16 @@
 ***
 
 ### Introduccion:
-Hola, soy Damian! Trabajo como desarrollador en [Camba](http://camba.coop/), y en mi tiempo libre soy voluntario en una asociación que rescata animales.  
-Adopteitor aspira a ser un sistema integral de control para centros de rescate, ofreciendo una plataforma que permita registrar a los animales, saber en donde están, en que situación, si están en adopción, fueron adoptados, etc. También permite registrar Humanos, estos pueden firmar Contratos de adopción que vinculan al animal con el humano, haciendo fácil llevar un historial del animal y saber con quien esta.  
-Mas informacion sobre el proyecto en el [repositorio](https://github.com/adopteitor/adopteitor-api)!
+Hola, soy [Damian](damianm@camba.coop)! Trabajo como desarrollador en [Camba](http://camba.coop/), y en mi tiempo libre soy voluntario en una asociación que rescata animales.  
+Adopteitor aspira a ser un sistema integral de control para centros de rescate, ofreciendo una plataforma que permita registrar a los animales, saber en donde están, en que situación, si están en adopción, fueron adoptados, etc. También permite registrar Humanos, estos pueden firmar Contratos de adopción que vinculan al animal con el humano, haciendo fácil llevar un historial del animal y saber con quien está.  
+Más informacion sobre el proyecto en el [repositorio](https://github.com/adopteitor/adopteitor-api)!
 
 Inicialmente el proyecto lo hicimos en Django y hace muy poco empezamos a re-hacer la API con FeathersJs, tengo mis modelos definidos en schemas de Mongoose y me pareció que seria interesante poder generar una documentación a partir de esta información.  
 
 Me encontre con una sola librería que parecía ya hacer lo que yo quería:  *[mongoose-to-swagger](https://github.com/giddyinc/mongoose-to-swagger)*.  
 Mire el código, se veía limpio y concreto, recibe un schema Mongoose,
-analiza su estructura y genera dinamicamente el schema Swagger, que luego usamos para popular las Definitions de la documentación Swagger del servicio...  
-***
+analiza su estructura y genera dinámicamente el schema Swagger, que luego usamos para popular las Definitions de la documentación Swagger del servicio...  
+<!-- *** -->
 
 ### Repositorio:
 Pueden encontrar la base para seguir este tutorial en este [repositorio](https://github.com/Cambalab/feathers-mongoose-swagger) en la branch master.  
@@ -207,6 +207,6 @@ Podemos ver el modelo y saber que datos necesitamos para un post:
 ***
 
 ### Gracias
-Bueno, esto fue todo, cualquier duda o corrección, por favor escribir a damianm@camba.coop!  
+Bueno, esto fue todo, cualquier duda o corrección, sera mas que bienvenida!  
 Les dejo un link al repo de github por si tienen alguna duda sobre la implementación:
 [Adopteitor @ github](https://github.com/adopteitor/adopteitor-api/tree/e062f234ae36893a2cf0453ff096fd48e01f9d40/)
